@@ -1,0 +1,90 @@
+.parentInfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+  z-index: -1;
+  position: absolute; /* Set a standard border radius */
+  overflow: hidden;
+}
+
+.infoBox{
+  height: 60%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding: 0 3rem;
+  margin-bottom: 5rem;
+  transition: 0.5s ease-out;
+}
+
+.text-rating{
+  color: #4CAF50;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.text-name{
+  color: black;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.text-role {
+  color: rgb(44, 43, 43);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.paragraph{
+  color: black;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.buttonSession{
+  width: 40%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 11px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+  box-shadow: 10px 0px 20px 0px #4caf4f;
+}
+
+.position-relative{
+  position: relative;
+}
+
+.curve{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 80%;
+  background-color: #ff3838;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  
+}
+
+.flex-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.star-flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 0.5rem;
+}

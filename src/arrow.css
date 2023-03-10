@@ -1,0 +1,61 @@
+.imageBottom {
+  position: relative;
+  z-index: 2;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.mainImage {
+  height: 15rem;
+  width: 15rem;
+  border-radius: 100%;
+  background-color: blueviolet;
+  text-align: center;
+}
+
+.flex-arrow {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  color: aliceblue;
+  padding: 11px;
+  gap: 8rem;
+  color: #4CAF50;
+  margin-right: 9rem;
+  margin-bottom: 4rem;
+}
+
+.mentorName {
+  color: black;
+  font-weight: 700;
+  background-color: #00a20887;
+  padding: 7px 0;
+  border-radius: 10px;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+  width: 15rem;
+}
+
+.image-text-flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.downbutton{
+  background-color: #4CAF50;
+  border-radius: 50%;
+  color: white;
+  height: 3rem;
+  width: 3rem;
+  border: none;
+}
+
+.imageanimate{
+  transition-delay: 4s;
+}
